@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20171107153742) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "username"
-    t.string "anonymous_username"
+    t.string "username"
     t.index ["email"], name: "index_moussaillons_on_email", unique: true
     t.index ["reset_password_token"], name: "index_moussaillons_on_reset_password_token", unique: true
   end
