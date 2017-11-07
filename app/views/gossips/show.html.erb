@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titre:</strong>
+  <%= @gossip.titre %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @gossip.content %>
+</p>
+
+<%= link_to 'Modifier', edit_gossip_path(@gossip) %> |
+<%= link_to 'Retour', gossips_path %>
